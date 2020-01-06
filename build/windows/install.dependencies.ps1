@@ -29,3 +29,5 @@ if ($pfxUri.Length -gt 0) {
     Write-Host "Downloading code signing certificate"
     Invoke-WebRequest $pfxUri -OutFile "$PSScriptRoot\ImageMagick.pfx"
 }
+
+dir "C:/Program Files (x86)/gs/gs9.27/bin/"
